@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  padding: 20pt;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 1000pt;
+  height: 500pt;
+  padding: 20pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.change {
+  background-color: rgba(255, 255, 255, 0.747);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
