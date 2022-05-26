@@ -1,10 +1,17 @@
+@font-face {
+  font-family: MemphisRiver, Arial, Helvetica, sans-serif;
+  src: url(fonts/MemphisRiver);
+}
+
 h1 {
+  font-family: MemphisRiver, Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 20pt;
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 20%;
+  border: 5pt;
   max-width: 1000pt;
   height: 500pt;
   padding: 20pt;
@@ -14,11 +21,18 @@ img {
 }
 
 .change {
-  background-color: rgba(255, 255, 255, 0.747);
+  background-color: rgba(201, 217, 230, 0.966);
 }
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+a,
+.flex-container {
   text-decoration: none;
+  color: rgb(46, 165, 42);
+  font-weight: 700;
+  font-style: oblique;
+  font-size: large;
 }
